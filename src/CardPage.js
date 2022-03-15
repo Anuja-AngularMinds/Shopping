@@ -107,10 +107,10 @@ function CardPage()
 
                     <h1>
 
-                        <a onClick={() => {navigator('/')}}>My Ecommerce Site</a>
+                        <a href='/' onClick={() => {navigator('/')}}>My Ecommerce Site</a>
                         
                         <span className="pull-right">
-                            <a onClick={() => {navigator('/card')}}>Cart ({productsData.length})</a>
+                            <a href='/card' onClick={() => {navigator('/card')}}>Cart ({productsData.length})</a>
                         </span>
 
                     </h1>
